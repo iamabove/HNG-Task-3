@@ -3,7 +3,6 @@ import Gallery from "../pages/Gallery";
 // import { Search } from "./components/Search";
 // import data from "./Data.json";
 import {
-  Routes,
   Route,
   RouterProvider,
   createBrowserRouter,
@@ -25,31 +24,29 @@ function Routespath() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <div className="body">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/authentication" element={<Authentication />} />
-          <Route path="*" element={<Error />} />
+      <Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/authentication" element={<Authentication />} />
+        <Route path="*" element={<Error />} />
 
-          <Route element={<PrivateRoutesLayout />}>
-            <Route
-              path="/gallery"
-              element={
-                <Gallery
-                  getImage={getImage}
-                  model={model}
-                  setModel={setModel}
-                  tempImgSrc={tempImgSrc}
-                  setTempImgSrc={setTempImgSrc}
-                />
-              }
-            />
-          </Route>
-        </Routes>
-      </div>
+        <Route element={<PrivateRoutesLayout />}>
+          <Route
+            path="/gallery"
+            element={
+              <Gallery
+                getImage={getImage}
+                model={model}
+                setModel={setModel}
+                tempImgSrc={tempImgSrc}
+                setTempImgSrc={setTempImgSrc}
+              />
+            }
+          />
+        </Route>
+      </Route>
     )
   );
-  return <RouterProvider router={router}/>
+  return <RouterProvider router={router} />;
 }
 
 export default Routespath;
