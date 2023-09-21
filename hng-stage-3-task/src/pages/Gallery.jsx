@@ -56,7 +56,7 @@ const Gallery = ({model, setModel, tempImgSrc, setTempImgSrc, getImage}) => {
                 src={each.imgSrc}
                 style={{ width: "100%", objectFit: "cover" }}
               />
-              <div>{each.tag}</div>
+              <div className="text-white">{each.tag}</div>
             </div>
           );
         })}

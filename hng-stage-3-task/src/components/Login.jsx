@@ -27,7 +27,7 @@ const Login = ({handleToggle}) => {
         }
     }
   return (
-    <div className='w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
+    <div className='w-100  h-100 d-flex flex-column justify-content-center align-items-center'>
         <h1>Login In</h1>
         <form onSubmit={handleLogin}>
             <input type="email" placeholder='enter email' value={email} onChange={(e) => setEmail(e.target.value)}/>

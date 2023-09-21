@@ -5,9 +5,7 @@ import Routespath from "./Routes/Routespath"
 const App = () => {
   return (
     <>
-    <div className='body'>
       <Routespath/>
-    </div>
     </>
   )
 }
