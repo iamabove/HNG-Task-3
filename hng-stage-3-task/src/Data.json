@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "tag": "Smiling lady",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605748/cld-sample.jpg"
+  },
+  {
+    "id": 2,
+    "tag": "Beautiful Flowers",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605722/sample.jpg"
+  },
+  {
+    "id": 3,
+    "tag": "Mountain",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605748/cld-sample-2.jpg"
+  },
+  {
+    "id": 4,
+    "tag": "Breakfast",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605749/cld-sample-4.jpg"
+  },
+  {
+    "id": 5,
+    "tag": "snickers",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605750/cld-sample-5.jpg"
+  },
+  {
+    "id": 6,
+    "tag": "Basketball",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605749/cld-sample-3.jpg"
+  },
+  {
+    "id": 7,
+    "tag": "Basketball",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605749/cld-sample-3.jpg"
+  },
+  {
+    "id": 8,
+    "tag": "Basketball",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605749/cld-sample-3.jpg"
+  },
+  {
+    "id": 9,
+    "tag": "Basketball",
+    "imgSrc": "https://res.cloudinary.com/dkqst1m3j/image/upload/v1682605749/cld-sample-3.jpg"
+  }
+]
